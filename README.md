@@ -4,16 +4,16 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Table of contents
 
-- [Overview]
-  - [Screenshot]
-  - [Links]
+- Overview
+  - Screenshot
+  - Links
 - [My process]
   - [Built with]
   - [What I learned]
   - [Continued development]
   - [Useful resources]
-- [Author]
-- [Acknowledgments]
+- Author
+- Acknowledgments
 
 ## Overview
 
@@ -23,8 +23,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://your-solution-url.com]
-- Live Site URL: [https://your-live-site-url.com]
+- Solution URL:  https://ur-dad24.github.io/frontend-mentor-qr-code.github.io/
 
 ## My process
 
