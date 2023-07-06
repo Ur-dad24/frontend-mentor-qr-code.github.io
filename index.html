@@ -1,28 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | QR code component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | QR code component</title>
 
-  Improve your front-end skills by building projects
+    <style>
+      /* Importing custom fonts */
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap");
+
+      body {
+        background-color: hsl(212, 45%, 89%);
+        font-size: 15px;
+      }
+      .parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        min-height: 600px;
+      }
+      .container {
+        text-align: center;
+        background-color: hsl(0, 0%, 100%);
+        width: 230px;
+        padding: 15px 0;
+        border-radius: 15px;
+        position: relative;
+      }
+      .container img {
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+      }
+      .container h3 {
+        font-family: "Outfit";
+        font-weight: 700;
+      }
+      .container p {
+        font-family: "Outfit";
+        font-weight: 300;
+        font-size: 12px;
+      }
+      .text-content {
+        padding: 0 15px;
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        font-family: "Outfit";
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="container">
+        <img src="images/image-qr-code.png" alt="qr-image" />
+        <div class="text-content">
+          <h3>Improve your front-end skills by building projects</h3>
+          <p>
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://twitter.com/yobu_tembo">Yobu Tembo</a>.
+    </div>
+  </body>
 </html>
