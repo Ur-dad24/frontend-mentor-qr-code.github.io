@@ -7,11 +7,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Overview
   - Screenshot
   - Links
-- [My process]
-  - [Built with]
-  - [What I learned]
-  - [Continued development]
-  - [Useful resources]
+- My process
+  - Built with
+  - What I learned
+  - Continued development
+  - Useful resources
 - Author
 - Acknowledgments
 
