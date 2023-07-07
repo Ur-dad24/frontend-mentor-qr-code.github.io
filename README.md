@@ -19,11 +19,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Solution screenshot](./images/solution.png)
+(./images/solution.png)
 
 ### Links
 
-- Solution URL:  https://ur-dad24.github.io/frontend-mentor-qr-code.github.io/
+- Solution URL: https://github.com/Ur-dad24/frontend-mentor-qr-code.github.io
+- Solution Live site:  https://ur-dad24.github.io/frontend-mentor-qr-code.github.io/
 
 ## My process
 
